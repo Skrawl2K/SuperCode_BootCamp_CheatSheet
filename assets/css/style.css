@@ -58,6 +58,39 @@
     color: #000000;
 }
 
+/* generell Button style */
+.gbutton {
+    background-color: teal;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button-hover:hover {
+    text-decoration: underline;
+    color: rgb(74, 74, 74);
+    text-shadow: #a6fffb 2px 3px 5px;
+}
+
+.subject-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4vh;
+    font-weight: 300;
+    text-align: center;
+}
+
+.text-alignment {
+    display: block;
+    text-align: center;
+}
+
 /* ===================== Header Style ========================== */
 
 @font-face {
@@ -69,7 +102,6 @@ header img {
     /* image-resolution: 934px 260px; */
     width: 100%;
     height: 20em;
-    img
 }
 
 header h1 {
